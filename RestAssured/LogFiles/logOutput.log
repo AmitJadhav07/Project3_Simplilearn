@@ -1,0 +1,357 @@
+[2023-09-08 18:47:34] Get connection for route {s}->https://reqres.in:443
+[2023-09-08 18:47:34] Connecting to reqres.in:443
+[2023-09-08 18:47:34] CookieSpec selected: ignoreCookies
+[2023-09-08 18:47:34] Auth cache not set in the context
+[2023-09-08 18:47:34] Target auth state: UNCHALLENGED
+[2023-09-08 18:47:34] Proxy auth state: UNCHALLENGED
+[2023-09-08 18:47:34] Attempt 1 to execute request
+[2023-09-08 18:47:34] Sending request: GET /api/users?page=2 HTTP/1.1
+[2023-09-08 18:47:34]  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+[2023-09-08 18:47:34]  >> "Accept: */*[\r][\n]"
+[2023-09-08 18:47:34]  >> "Host: reqres.in[\r][\n]"
+[2023-09-08 18:47:34]  >> "Connection: Keep-Alive[\r][\n]"
+[2023-09-08 18:47:34]  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+[2023-09-08 18:47:34]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2023-09-08 18:47:34]  >> "[\r][\n]"
+[2023-09-08 18:47:34] >> GET /api/users?page=2 HTTP/1.1
+[2023-09-08 18:47:34] >> Accept: */*
+[2023-09-08 18:47:34] >> Host: reqres.in
+[2023-09-08 18:47:34] >> Connection: Keep-Alive
+[2023-09-08 18:47:34] >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+[2023-09-08 18:47:34] >> Accept-Encoding: gzip,deflate
+[2023-09-08 18:47:34]  << "HTTP/1.1 200 OK[\r][\n]"
+[2023-09-08 18:47:34]  << "Date: Fri, 08 Sep 2023 13:17:32 GMT[\r][\n]"
+[2023-09-08 18:47:34]  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2023-09-08 18:47:34]  << "Transfer-Encoding: chunked[\r][\n]"
+[2023-09-08 18:47:34]  << "Connection: keep-alive[\r][\n]"
+[2023-09-08 18:47:34]  << "X-Powered-By: Express[\r][\n]"
+[2023-09-08 18:47:34]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[2023-09-08 18:47:34]  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+[2023-09-08 18:47:34]  << "Via: 1.1 vegur[\r][\n]"
+[2023-09-08 18:47:34]  << "Cache-Control: max-age=14400[\r][\n]"
+[2023-09-08 18:47:34]  << "CF-Cache-Status: HIT[\r][\n]"
+[2023-09-08 18:47:34]  << "Age: 760[\r][\n]"
+[2023-09-08 18:47:34]  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QAW5A3A%2BLVuCNOG7%2Bi%2B3YbyDdfVc7%2BDp%2FifAiUUYOb7g5ju6ucEpZvwJ9yFNDiSx5GRxyTAKvKmcLsRt5CgxsinkEXu7ldLJjDj3Ao0P67cIX8G4%2FM%2FOrMixMw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 18:47:34]  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 18:47:34]  << "Vary: Accept-Encoding[\r][\n]"
+[2023-09-08 18:47:34]  << "Server: cloudflare[\r][\n]"
+[2023-09-08 18:47:34]  << "CF-RAY: 803778e69bfd46fe-BOM[\r][\n]"
+[2023-09-08 18:47:34]  << "Content-Encoding: gzip[\r][\n]"
+[2023-09-08 18:47:34]  << "[\r][\n]"
+[2023-09-08 18:47:34] Receiving response: HTTP/1.1 200 OK
+[2023-09-08 18:47:34] << HTTP/1.1 200 OK
+[2023-09-08 18:47:34] << Date: Fri, 08 Sep 2023 13:17:32 GMT
+[2023-09-08 18:47:34] << Content-Type: application/json; charset=utf-8
+[2023-09-08 18:47:34] << Transfer-Encoding: chunked
+[2023-09-08 18:47:34] << Connection: keep-alive
+[2023-09-08 18:47:34] << X-Powered-By: Express
+[2023-09-08 18:47:34] << Access-Control-Allow-Origin: *
+[2023-09-08 18:47:34] << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+[2023-09-08 18:47:34] << Via: 1.1 vegur
+[2023-09-08 18:47:34] << Cache-Control: max-age=14400
+[2023-09-08 18:47:34] << CF-Cache-Status: HIT
+[2023-09-08 18:47:34] << Age: 760
+[2023-09-08 18:47:34] << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QAW5A3A%2BLVuCNOG7%2Bi%2B3YbyDdfVc7%2BDp%2FifAiUUYOb7g5ju6ucEpZvwJ9yFNDiSx5GRxyTAKvKmcLsRt5CgxsinkEXu7ldLJjDj3Ao0P67cIX8G4%2FM%2FOrMixMw%3D%3D"}],"group":"cf-nel","max_age":604800}
+[2023-09-08 18:47:34] << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[2023-09-08 18:47:34] << Vary: Accept-Encoding
+[2023-09-08 18:47:34] << Server: cloudflare
+[2023-09-08 18:47:34] << CF-RAY: 803778e69bfd46fe-BOM
+[2023-09-08 18:47:34] << Content-Encoding: gzip
+[2023-09-08 18:47:34] Connection can be kept alive indefinitely
+[2023-09-08 18:47:34] Parsing response as: application/json; charset=utf-8
+[2023-09-08 18:47:34]  << "17b[\r][\n]"
+[2023-09-08 18:47:34]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+[2023-09-08 18:47:34]  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+[2023-09-08 18:47:34]  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+[2023-09-08 18:47:34]  << "[\r][\n]"
+[2023-09-08 18:47:34]  << "0[\r][\n]"
+[2023-09-08 18:47:34]  << "[\r][\n]"
+[2023-09-08 18:47:34] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2023-09-08 18:47:34] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@f1dd5b4
+[2023-09-08 18:47:34] Connection can be kept alive indefinitely
+[2023-09-08 18:51:57] Get connection for route {s}->https://reqres.in:443
+[2023-09-08 18:51:57] Connecting to reqres.in:443
+[2023-09-08 18:51:57] CookieSpec selected: ignoreCookies
+[2023-09-08 18:51:57] Auth cache not set in the context
+[2023-09-08 18:51:57] Target auth state: UNCHALLENGED
+[2023-09-08 18:51:57] Proxy auth state: UNCHALLENGED
+[2023-09-08 18:51:57] Attempt 1 to execute request
+[2023-09-08 18:51:57] Sending request: GET /api/users?page=2 HTTP/1.1
+[2023-09-08 18:51:57]  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+[2023-09-08 18:51:57]  >> "Accept: */*[\r][\n]"
+[2023-09-08 18:51:57]  >> "Host: reqres.in[\r][\n]"
+[2023-09-08 18:51:57]  >> "Connection: Keep-Alive[\r][\n]"
+[2023-09-08 18:51:57]  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+[2023-09-08 18:51:57]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2023-09-08 18:51:57]  >> "[\r][\n]"
+[2023-09-08 18:51:57] >> GET /api/users?page=2 HTTP/1.1
+[2023-09-08 18:51:57] >> Accept: */*
+[2023-09-08 18:51:57] >> Host: reqres.in
+[2023-09-08 18:51:57] >> Connection: Keep-Alive
+[2023-09-08 18:51:57] >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+[2023-09-08 18:51:57] >> Accept-Encoding: gzip,deflate
+[2023-09-08 18:51:57]  << "HTTP/1.1 200 OK[\r][\n]"
+[2023-09-08 18:51:57]  << "Date: Fri, 08 Sep 2023 13:21:55 GMT[\r][\n]"
+[2023-09-08 18:51:57]  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2023-09-08 18:51:57]  << "Transfer-Encoding: chunked[\r][\n]"
+[2023-09-08 18:51:57]  << "Connection: keep-alive[\r][\n]"
+[2023-09-08 18:51:57]  << "X-Powered-By: Express[\r][\n]"
+[2023-09-08 18:51:57]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[2023-09-08 18:51:57]  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+[2023-09-08 18:51:57]  << "Via: 1.1 vegur[\r][\n]"
+[2023-09-08 18:51:57]  << "Cache-Control: max-age=14400[\r][\n]"
+[2023-09-08 18:51:57]  << "CF-Cache-Status: HIT[\r][\n]"
+[2023-09-08 18:51:57]  << "Age: 3096[\r][\n]"
+[2023-09-08 18:51:57]  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=u%2Bj%2BLLQaf%2B2TYPkxLBksfGEit6BcNFTVPkV3vU7WbvbaHrEpmHnYJJNRMQDPhKzRSFCL30Af4nSCxyK%2BT%2FSsCYvML3esNUIfXFMvcit29LExFo8P4SC%2BM9S9CA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 18:51:57]  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 18:51:57]  << "Vary: Accept-Encoding[\r][\n]"
+[2023-09-08 18:51:57]  << "Server: cloudflare[\r][\n]"
+[2023-09-08 18:51:57]  << "CF-RAY: 80377f4fefad40d5-BOM[\r][\n]"
+[2023-09-08 18:51:57]  << "Content-Encoding: gzip[\r][\n]"
+[2023-09-08 18:51:57]  << "[\r][\n]"
+[2023-09-08 18:51:57] Receiving response: HTTP/1.1 200 OK
+[2023-09-08 18:51:57] << HTTP/1.1 200 OK
+[2023-09-08 18:51:57] << Date: Fri, 08 Sep 2023 13:21:55 GMT
+[2023-09-08 18:51:57] << Content-Type: application/json; charset=utf-8
+[2023-09-08 18:51:57] << Transfer-Encoding: chunked
+[2023-09-08 18:51:57] << Connection: keep-alive
+[2023-09-08 18:51:57] << X-Powered-By: Express
+[2023-09-08 18:51:57] << Access-Control-Allow-Origin: *
+[2023-09-08 18:51:57] << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+[2023-09-08 18:51:57] << Via: 1.1 vegur
+[2023-09-08 18:51:57] << Cache-Control: max-age=14400
+[2023-09-08 18:51:57] << CF-Cache-Status: HIT
+[2023-09-08 18:51:57] << Age: 3096
+[2023-09-08 18:51:57] << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=u%2Bj%2BLLQaf%2B2TYPkxLBksfGEit6BcNFTVPkV3vU7WbvbaHrEpmHnYJJNRMQDPhKzRSFCL30Af4nSCxyK%2BT%2FSsCYvML3esNUIfXFMvcit29LExFo8P4SC%2BM9S9CA%3D%3D"}],"group":"cf-nel","max_age":604800}
+[2023-09-08 18:51:57] << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[2023-09-08 18:51:57] << Vary: Accept-Encoding
+[2023-09-08 18:51:57] << Server: cloudflare
+[2023-09-08 18:51:57] << CF-RAY: 80377f4fefad40d5-BOM
+[2023-09-08 18:51:57] << Content-Encoding: gzip
+[2023-09-08 18:51:57] Connection can be kept alive indefinitely
+[2023-09-08 18:51:57] Parsing response as: application/json; charset=utf-8
+[2023-09-08 18:51:57]  << "17b[\r][\n]"
+[2023-09-08 18:51:57]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+[2023-09-08 18:51:57]  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+[2023-09-08 18:51:57]  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+[2023-09-08 18:51:57]  << "[\r][\n]"
+[2023-09-08 18:51:57]  << "0[\r][\n]"
+[2023-09-08 18:51:57]  << "[\r][\n]"
+[2023-09-08 18:51:57] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2023-09-08 18:51:57] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@73809e7
+[2023-09-08 18:51:57] Connection can be kept alive indefinitely
+[2023-09-08 18:51:57] Connection 0.0.0.0:59721<->172.67.73.173:443 closed
+[2023-09-08 19:02:59] Get connection for route {s}->https://reqres.in:443
+[2023-09-08 19:02:59] Connecting to reqres.in:443
+[2023-09-08 19:02:59] CookieSpec selected: ignoreCookies
+[2023-09-08 19:02:59] Auth cache not set in the context
+[2023-09-08 19:02:59] Target auth state: UNCHALLENGED
+[2023-09-08 19:02:59] Proxy auth state: UNCHALLENGED
+[2023-09-08 19:02:59] Attempt 1 to execute request
+[2023-09-08 19:02:59] Sending request: GET /api/users?page=2 HTTP/1.1
+[2023-09-08 19:02:59]  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+[2023-09-08 19:02:59]  >> "Accept: */*[\r][\n]"
+[2023-09-08 19:02:59]  >> "Host: reqres.in[\r][\n]"
+[2023-09-08 19:02:59]  >> "Connection: Keep-Alive[\r][\n]"
+[2023-09-08 19:02:59]  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+[2023-09-08 19:02:59]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2023-09-08 19:02:59]  >> "[\r][\n]"
+[2023-09-08 19:02:59] >> GET /api/users?page=2 HTTP/1.1
+[2023-09-08 19:02:59] >> Accept: */*
+[2023-09-08 19:02:59] >> Host: reqres.in
+[2023-09-08 19:02:59] >> Connection: Keep-Alive
+[2023-09-08 19:02:59] >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+[2023-09-08 19:02:59] >> Accept-Encoding: gzip,deflate
+[2023-09-08 19:02:59]  << "HTTP/1.1 200 OK[\r][\n]"
+[2023-09-08 19:02:59]  << "Date: Fri, 08 Sep 2023 13:32:57 GMT[\r][\n]"
+[2023-09-08 19:02:59]  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2023-09-08 19:02:59]  << "Transfer-Encoding: chunked[\r][\n]"
+[2023-09-08 19:02:59]  << "Connection: keep-alive[\r][\n]"
+[2023-09-08 19:02:59]  << "X-Powered-By: Express[\r][\n]"
+[2023-09-08 19:02:59]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[2023-09-08 19:02:59]  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+[2023-09-08 19:02:59]  << "Via: 1.1 vegur[\r][\n]"
+[2023-09-08 19:02:59]  << "Cache-Control: max-age=14400[\r][\n]"
+[2023-09-08 19:02:59]  << "CF-Cache-Status: HIT[\r][\n]"
+[2023-09-08 19:02:59]  << "Age: 4506[\r][\n]"
+[2023-09-08 19:02:59]  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mUmOUZOXxM4427Gq0GNuPVza2Q9L3r%2B%2BC0busZsNSm9DULkVIUajQubuS0ciVsv2zXpnRK%2BLpp6cR5vAHxNguTOUnc4sa4VAqDcQ%2BGvUlBS11LjX7IRLm%2FXtXA%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 19:02:59]  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 19:02:59]  << "Vary: Accept-Encoding[\r][\n]"
+[2023-09-08 19:02:59]  << "Server: cloudflare[\r][\n]"
+[2023-09-08 19:02:59]  << "CF-RAY: 80378f7c6caf3a93-BOM[\r][\n]"
+[2023-09-08 19:02:59]  << "Content-Encoding: gzip[\r][\n]"
+[2023-09-08 19:02:59]  << "[\r][\n]"
+[2023-09-08 19:02:59] Receiving response: HTTP/1.1 200 OK
+[2023-09-08 19:02:59] << HTTP/1.1 200 OK
+[2023-09-08 19:02:59] << Date: Fri, 08 Sep 2023 13:32:57 GMT
+[2023-09-08 19:02:59] << Content-Type: application/json; charset=utf-8
+[2023-09-08 19:02:59] << Transfer-Encoding: chunked
+[2023-09-08 19:02:59] << Connection: keep-alive
+[2023-09-08 19:02:59] << X-Powered-By: Express
+[2023-09-08 19:02:59] << Access-Control-Allow-Origin: *
+[2023-09-08 19:02:59] << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+[2023-09-08 19:02:59] << Via: 1.1 vegur
+[2023-09-08 19:02:59] << Cache-Control: max-age=14400
+[2023-09-08 19:02:59] << CF-Cache-Status: HIT
+[2023-09-08 19:02:59] << Age: 4506
+[2023-09-08 19:02:59] << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mUmOUZOXxM4427Gq0GNuPVza2Q9L3r%2B%2BC0busZsNSm9DULkVIUajQubuS0ciVsv2zXpnRK%2BLpp6cR5vAHxNguTOUnc4sa4VAqDcQ%2BGvUlBS11LjX7IRLm%2FXtXA%3D%3D"}],"group":"cf-nel","max_age":604800}
+[2023-09-08 19:02:59] << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[2023-09-08 19:02:59] << Vary: Accept-Encoding
+[2023-09-08 19:02:59] << Server: cloudflare
+[2023-09-08 19:02:59] << CF-RAY: 80378f7c6caf3a93-BOM
+[2023-09-08 19:02:59] << Content-Encoding: gzip
+[2023-09-08 19:02:59] Connection can be kept alive indefinitely
+[2023-09-08 19:02:59] Parsing response as: application/json; charset=utf-8
+[2023-09-08 19:02:59]  << "17b[\r][\n]"
+[2023-09-08 19:02:59]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+[2023-09-08 19:02:59]  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+[2023-09-08 19:02:59]  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+[2023-09-08 19:02:59]  << "[\r][\n]"
+[2023-09-08 19:02:59]  << "0[\r][\n]"
+[2023-09-08 19:02:59]  << "[\r][\n]"
+[2023-09-08 19:02:59] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2023-09-08 19:02:59] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@462abec3
+[2023-09-08 19:02:59] Connection can be kept alive indefinitely
+[2023-09-08 19:02:59] Connection 0.0.0.0:60455<->104.26.10.213:443 closed
+[2023-09-08 19:13:38] Get connection for route {s}->https://reqres.in:443
+[2023-09-08 19:13:38] Connecting to reqres.in:443
+[2023-09-08 19:13:38] CookieSpec selected: ignoreCookies
+[2023-09-08 19:13:38] Auth cache not set in the context
+[2023-09-08 19:13:38] Target auth state: UNCHALLENGED
+[2023-09-08 19:13:38] Proxy auth state: UNCHALLENGED
+[2023-09-08 19:13:38] Attempt 1 to execute request
+[2023-09-08 19:13:38] Sending request: GET /api/users?page=2 HTTP/1.1
+[2023-09-08 19:13:38]  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+[2023-09-08 19:13:38]  >> "Accept: */*[\r][\n]"
+[2023-09-08 19:13:38]  >> "Host: reqres.in[\r][\n]"
+[2023-09-08 19:13:38]  >> "Connection: Keep-Alive[\r][\n]"
+[2023-09-08 19:13:38]  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+[2023-09-08 19:13:38]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2023-09-08 19:13:38]  >> "[\r][\n]"
+[2023-09-08 19:13:38] >> GET /api/users?page=2 HTTP/1.1
+[2023-09-08 19:13:38] >> Accept: */*
+[2023-09-08 19:13:38] >> Host: reqres.in
+[2023-09-08 19:13:38] >> Connection: Keep-Alive
+[2023-09-08 19:13:38] >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+[2023-09-08 19:13:38] >> Accept-Encoding: gzip,deflate
+[2023-09-08 19:13:39]  << "HTTP/1.1 200 OK[\r][\n]"
+[2023-09-08 19:13:39]  << "Date: Fri, 08 Sep 2023 13:43:37 GMT[\r][\n]"
+[2023-09-08 19:13:39]  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2023-09-08 19:13:39]  << "Transfer-Encoding: chunked[\r][\n]"
+[2023-09-08 19:13:39]  << "Connection: keep-alive[\r][\n]"
+[2023-09-08 19:13:39]  << "X-Powered-By: Express[\r][\n]"
+[2023-09-08 19:13:39]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[2023-09-08 19:13:39]  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+[2023-09-08 19:13:39]  << "Via: 1.1 vegur[\r][\n]"
+[2023-09-08 19:13:39]  << "Cache-Control: max-age=14400[\r][\n]"
+[2023-09-08 19:13:39]  << "CF-Cache-Status: REVALIDATED[\r][\n]"
+[2023-09-08 19:13:39]  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jHFFeWoGhBJr7Jpx0KdkMeh%2FKGHTzgc1B%2FItEazwq6Wzr%2FAN1DWE7tONPHQHdzmV2bq9mbkeZ%2FeerYYQSs7hDP96rf%2BrvWw%2BC5ShTkfvElxbuhr1bL%2FVY%2FDJmw%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 19:13:39]  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 19:13:39]  << "Vary: Accept-Encoding[\r][\n]"
+[2023-09-08 19:13:39]  << "Server: cloudflare[\r][\n]"
+[2023-09-08 19:13:39]  << "CF-RAY: 80379f183d7c85c0-BOM[\r][\n]"
+[2023-09-08 19:13:39]  << "Content-Encoding: gzip[\r][\n]"
+[2023-09-08 19:13:39]  << "[\r][\n]"
+[2023-09-08 19:13:39] Receiving response: HTTP/1.1 200 OK
+[2023-09-08 19:13:39] << HTTP/1.1 200 OK
+[2023-09-08 19:13:39] << Date: Fri, 08 Sep 2023 13:43:37 GMT
+[2023-09-08 19:13:39] << Content-Type: application/json; charset=utf-8
+[2023-09-08 19:13:39] << Transfer-Encoding: chunked
+[2023-09-08 19:13:39] << Connection: keep-alive
+[2023-09-08 19:13:39] << X-Powered-By: Express
+[2023-09-08 19:13:39] << Access-Control-Allow-Origin: *
+[2023-09-08 19:13:39] << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+[2023-09-08 19:13:39] << Via: 1.1 vegur
+[2023-09-08 19:13:39] << Cache-Control: max-age=14400
+[2023-09-08 19:13:39] << CF-Cache-Status: REVALIDATED
+[2023-09-08 19:13:39] << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jHFFeWoGhBJr7Jpx0KdkMeh%2FKGHTzgc1B%2FItEazwq6Wzr%2FAN1DWE7tONPHQHdzmV2bq9mbkeZ%2FeerYYQSs7hDP96rf%2BrvWw%2BC5ShTkfvElxbuhr1bL%2FVY%2FDJmw%3D%3D"}],"group":"cf-nel","max_age":604800}
+[2023-09-08 19:13:39] << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[2023-09-08 19:13:39] << Vary: Accept-Encoding
+[2023-09-08 19:13:39] << Server: cloudflare
+[2023-09-08 19:13:39] << CF-RAY: 80379f183d7c85c0-BOM
+[2023-09-08 19:13:39] << Content-Encoding: gzip
+[2023-09-08 19:13:39] Connection can be kept alive indefinitely
+[2023-09-08 19:13:39] Parsing response as: application/json; charset=utf-8
+[2023-09-08 19:13:39]  << "17b[\r][\n]"
+[2023-09-08 19:13:39]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+[2023-09-08 19:13:39]  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+[2023-09-08 19:13:39]  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+[2023-09-08 19:13:39]  << "[\r][\n]"
+[2023-09-08 19:13:39]  << "0[\r][\n]"
+[2023-09-08 19:13:39]  << "[\r][\n]"
+[2023-09-08 19:13:39] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2023-09-08 19:13:39] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@34332b8d
+[2023-09-08 19:13:39] Connection can be kept alive indefinitely
+[2023-09-08 19:13:39] Connection 0.0.0.0:61170<->104.26.11.213:443 closed
+[2023-09-08 20:15:58] Get connection for route {s}->https://reqres.in:443
+[2023-09-08 20:15:58] Connecting to reqres.in:443
+[2023-09-08 20:15:58] CookieSpec selected: ignoreCookies
+[2023-09-08 20:15:58] Auth cache not set in the context
+[2023-09-08 20:15:58] Target auth state: UNCHALLENGED
+[2023-09-08 20:15:58] Proxy auth state: UNCHALLENGED
+[2023-09-08 20:15:58] Attempt 1 to execute request
+[2023-09-08 20:15:58] Sending request: GET /api/users?page=2 HTTP/1.1
+[2023-09-08 20:15:58]  >> "GET /api/users?page=2 HTTP/1.1[\r][\n]"
+[2023-09-08 20:15:58]  >> "Accept: */*[\r][\n]"
+[2023-09-08 20:15:58]  >> "Host: reqres.in[\r][\n]"
+[2023-09-08 20:15:58]  >> "Connection: Keep-Alive[\r][\n]"
+[2023-09-08 20:15:58]  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)[\r][\n]"
+[2023-09-08 20:15:58]  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[2023-09-08 20:15:58]  >> "[\r][\n]"
+[2023-09-08 20:15:58] >> GET /api/users?page=2 HTTP/1.1
+[2023-09-08 20:15:58] >> Accept: */*
+[2023-09-08 20:15:58] >> Host: reqres.in
+[2023-09-08 20:15:58] >> Connection: Keep-Alive
+[2023-09-08 20:15:58] >> User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.2)
+[2023-09-08 20:15:58] >> Accept-Encoding: gzip,deflate
+[2023-09-08 20:15:58]  << "HTTP/1.1 200 OK[\r][\n]"
+[2023-09-08 20:15:58]  << "Date: Fri, 08 Sep 2023 14:45:56 GMT[\r][\n]"
+[2023-09-08 20:15:58]  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[2023-09-08 20:15:58]  << "Transfer-Encoding: chunked[\r][\n]"
+[2023-09-08 20:15:58]  << "Connection: keep-alive[\r][\n]"
+[2023-09-08 20:15:58]  << "X-Powered-By: Express[\r][\n]"
+[2023-09-08 20:15:58]  << "Access-Control-Allow-Origin: *[\r][\n]"
+[2023-09-08 20:15:58]  << "Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"[\r][\n]"
+[2023-09-08 20:15:58]  << "Via: 1.1 vegur[\r][\n]"
+[2023-09-08 20:15:58]  << "Cache-Control: max-age=14400[\r][\n]"
+[2023-09-08 20:15:58]  << "CF-Cache-Status: HIT[\r][\n]"
+[2023-09-08 20:15:58]  << "Age: 1677[\r][\n]"
+[2023-09-08 20:15:58]  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7a4yw1kVaoReEEFuQ5keX4ECMK%2BEuXJbETXH4svpXxQjuJQ%2B%2BoXJD%2F%2FAk6Uc9n2IzZeKglQcEoJJ35cyirWcwYJjjfiLQZPPqZPBM2WxezaSHoz4scI67lh2eg%3D%3D"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 20:15:58]  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+[2023-09-08 20:15:58]  << "Vary: Accept-Encoding[\r][\n]"
+[2023-09-08 20:15:58]  << "Server: cloudflare[\r][\n]"
+[2023-09-08 20:15:58]  << "CF-RAY: 8037fa655fbc3d3c-BOM[\r][\n]"
+[2023-09-08 20:15:58]  << "Content-Encoding: gzip[\r][\n]"
+[2023-09-08 20:15:58]  << "[\r][\n]"
+[2023-09-08 20:15:58] Receiving response: HTTP/1.1 200 OK
+[2023-09-08 20:15:58] << HTTP/1.1 200 OK
+[2023-09-08 20:15:58] << Date: Fri, 08 Sep 2023 14:45:56 GMT
+[2023-09-08 20:15:58] << Content-Type: application/json; charset=utf-8
+[2023-09-08 20:15:58] << Transfer-Encoding: chunked
+[2023-09-08 20:15:58] << Connection: keep-alive
+[2023-09-08 20:15:58] << X-Powered-By: Express
+[2023-09-08 20:15:58] << Access-Control-Allow-Origin: *
+[2023-09-08 20:15:58] << Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+[2023-09-08 20:15:58] << Via: 1.1 vegur
+[2023-09-08 20:15:58] << Cache-Control: max-age=14400
+[2023-09-08 20:15:58] << CF-Cache-Status: HIT
+[2023-09-08 20:15:58] << Age: 1677
+[2023-09-08 20:15:58] << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7a4yw1kVaoReEEFuQ5keX4ECMK%2BEuXJbETXH4svpXxQjuJQ%2B%2BoXJD%2F%2FAk6Uc9n2IzZeKglQcEoJJ35cyirWcwYJjjfiLQZPPqZPBM2WxezaSHoz4scI67lh2eg%3D%3D"}],"group":"cf-nel","max_age":604800}
+[2023-09-08 20:15:58] << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+[2023-09-08 20:15:58] << Vary: Accept-Encoding
+[2023-09-08 20:15:58] << Server: cloudflare
+[2023-09-08 20:15:58] << CF-RAY: 8037fa655fbc3d3c-BOM
+[2023-09-08 20:15:58] << Content-Encoding: gzip
+[2023-09-08 20:15:58] Connection can be kept alive indefinitely
+[2023-09-08 20:15:58] Parsing response as: application/json; charset=utf-8
+[2023-09-08 20:15:58]  << "17b[\r][\n]"
+[2023-09-08 20:15:58]  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0xd2][0xcd]n[0xa3]0[0x14][0x86][0xe1][q[0xcf]l](Y[0xf4][0xc7][0xab][0xaa][0xd2][0xcc]t[0xd1]n[0xa2][0xd9]U[0xa3][0xea][0x4][0xe][0xe0][0xd6][0xd8][0xee][0xb1]i[0xa6][0x8a]r[0xef]UM4T[0x88]D[0xec][0x0][0xbf][0x1f]z[0x84][0xd8][0x81][0xc7][0x86]@[0xad]$x[0xe2][0xe7][0xe1][0xe6]RBt[0x11][\r][0xa8]bu[0xb8]L'!u[0x15]F[0x4][0xf5][0xb4][0x3]][0x81][0xba][0x92]@[0x1d]j[0x3][\n]"
+[2023-09-08 20:15:58]  << ":][0xb6]H&3[0xb8][\r][0xce][0xde]2[0xbd]1[0x85]L[[0x90]Pk[0xe][0xf1][0xd9]bG[0xa0][0xe0]q[0xe8]@[0x82][0xc1][0xf1][0xe9]CZ[0x81][0x4]|[0xc7][0x88][0xc][\n]"
+[2023-09-08 20:15:58]  << "[0xda][0x18]}Py[0xfe][0xff]E[0xb9][0xee][0x9a][0xbc][0xc6][0x92]B~u[0xae];l({[0xf1][\r][0xec][0xe5]@[0xb9][0x1e])F[0xdb]*[0xe0]GV[0x13]7[0xfd]I[0xcc][0xc3]PN0[0xbf][0xe][0xbb][0xa5][0x9c][0xeb][0x19][0xce][0xcd][0xc8][0x89]n[0xa3]1duo_[0xe9]8[0xe5]O[0xaa][0xa6][0x92][0xaf][0xcd]R[0xc6][0xcd][0xc][0xa3][0xb8][0x18][0x1d][0x9b][0xf]v6[0xab]5[0x99]*[0x1c]w[0xdc]}USF[0xda],u[0x14][0x17]s[0x90]b[0x84]4[0xe4][0xb8][0xa1][0x8c][0xaa]-[0xf2])[0xca][0xef][0xd4]M,?[0x87][0xd5]bL1[0x87]Y[0x8d][0x18][0xc6][0xb2]%[0x93][0xb5]nK[0xc6][0x1c][0xb7][0xac]S6[0xb1][0xdc][0xa7][0xd1]b[0xca][0xea];[0xe5][0xaf][0x84][0xd0]{[0xef]8[0x82][0xda]A[0xcf]fv[0xfd][0xe3][0xd0][0x9c][0xb7][0x84][0x95][0xb6][\r]H[0x88][0xf4]/[0xa6][0xff]E[0xbc][0x12]y[0xb1][0xa6][0xb7]5[0x5]Q3[0x91][0x14][0xa5][0xb3][0x91][0xf5][0xa6][0x8f][0xda][0xd9] [0xa2]K[0x9f]J[0x4][0xe2]wbQ[0xba][0x10][0x83]@&[0x81][0xde]3[0x95][0x1a]#Ug[0xb0][0xdf][0x2][0xf6][0x16][0x88]W[0x6][0x4][0x0][0x0]"
+[2023-09-08 20:15:58]  << "[\r][\n]"
+[2023-09-08 20:15:58]  << "0[\r][\n]"
+[2023-09-08 20:15:58]  << "[\r][\n]"
+[2023-09-08 20:15:58] Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[2023-09-08 20:15:58] Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@34332b8d
+[2023-09-08 20:15:58] Connection can be kept alive indefinitely
+[2023-09-08 20:15:58] Connection 0.0.0.0:65526<->172.67.73.173:443 closed

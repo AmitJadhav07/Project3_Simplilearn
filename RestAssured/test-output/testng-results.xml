@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-08T21:55:36 IST" name="Default suite" finished-at="2023-09-08T21:55:40 IST" duration-ms="4302">
+    <groups>
+    </groups>
+    <test started-at="2023-09-08T21:55:36 IST" name="Default test" finished-at="2023-09-08T21:55:40 IST" duration-ms="4302">
+      <class name="com.RestAssured.GETRequest">
+        <test-method signature="CreateNewUser()[pri:0, instance:com.RestAssured.GETRequest@2dde1bff]" started-at="2023-09-08T21:55:36 IST" name="CreateNewUser" finished-at="2023-09-08T21:55:39 IST" duration-ms="2832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewUser -->
+        <test-method signature="GetUsersList()[pri:0, instance:com.RestAssured.GETRequest@2dde1bff]" started-at="2023-09-08T21:55:39 IST" name="GetUsersList" finished-at="2023-09-08T21:55:40 IST" duration-ms="1369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUsersList -->
+      </class> <!-- com.RestAssured.GETRequest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
